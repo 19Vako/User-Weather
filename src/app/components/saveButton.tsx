@@ -12,7 +12,7 @@ export default function SaveButton({ user }: { user: Object }) {
   }
   return (
     <button
-      className="font-sans text-white bg-gray-500 border-[0.2vw] rounded-[1vw] border-black p-[0.5vw]"
+      className="font-sans w-[11vw]  text-white bg-gray-500 border-[0.2vw] rounded-[1vw] border-black p-[0.5vw]"
       onClick={() => saveUser()}
     >
       {!existUser ? "Save user" : "User been added!"}
