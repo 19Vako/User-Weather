@@ -49,7 +49,7 @@ export default function UserModal({
 
       <div className="z-20 flex flex-col justify-center h-full w-full">
         <div className="flex justify-center ">
-          <div className="z-20 w-[25vw] flex flex-col items-center justify-center text-white w-full mr-[2vw]">
+          <div className="z-20 w-[20vw] flex flex-col items-center justify-center text-white w-full mr-[2vw]">
             <h1 className="flex text-[15vw] items-center justify-center h-[10vw]">
               {icon}
             </h1>
@@ -68,8 +68,8 @@ export default function UserModal({
             </div>
 
             <div className="flex">
-              <h1 className="mr-[1vw]">📍 Локація:</h1>
-              <h1 className="">
+              <h1 className="flex items-center mr-[1vw] min-w-[10.3vw]">📍 Локація:</h1>
+              <h1 className="flex">
                 {user.location.country} {user.location.city}
               </h1>
             </div>

@@ -65,6 +65,8 @@ export default function User_list() {
     fetchUsers();
   };
 
+  console.log(users)
+
   const retryWeatherForUser = async (uuid: string) => {
     const user = users.find((u: any) => u.login.uuid === uuid);
     if (!user) return;
